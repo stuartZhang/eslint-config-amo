@@ -53,7 +53,9 @@ module.exports = {
     'no-new-wrappers': ['error'],
     // 'no-octal': ['error'],
     'no-proto': ['error'],
-    // 'no-redeclare': ['error'],
+    'no-redeclare': ['error', {
+      'builtinGlobals': true
+    }],
     'no-script-url': ['error'],
     // 'no-self-assign': ['error'],
     'no-self-compare': ['error'],
