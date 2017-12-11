@@ -53,6 +53,9 @@ module.exports = {
     'amo/no-util-format': ['error'],
     'amo/arrow-parens': ['error', 'as-needed'],
     'amo/generator-star-spacing': ['error', 'before'],
-    'amo/require-yield': ['error']
+    'amo/require-yield': ['error'],
+    'amo/no-console': ['error', {
+      'allow': ['assert']
+    }]
   }
 };
