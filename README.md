@@ -1,4 +1,4 @@
-# eslint-config-amo
+# eslint-config-stzhang
 A group of ESLint presets for the AMO company.
 # Setup
 1. Global tools

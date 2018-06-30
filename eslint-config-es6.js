@@ -48,13 +48,13 @@ module.exports = {
     // enforces spacing around the * in yield* expressions.
     'yield-star-spacing': ['error', 'after'],
     // Connect rules
-    'amo/no-array-concat': ['error'],
-    'amo/no-string-charcode': ['error'],
-    'amo/no-util-format': ['error'],
-    'amo/arrow-parens': ['error', 'as-needed'],
-    'amo/generator-star-spacing': ['error', 'before'],
-    'amo/require-yield': ['error'],
-    'amo/no-console': ['error', {
+    'stzhang/no-array-concat': ['error'],
+    'stzhang/no-string-charcode': ['error'],
+    'stzhang/no-util-format': ['error'],
+    'stzhang/arrow-parens': ['error', 'as-needed'],
+    'stzhang/generator-star-spacing': ['error', 'before'],
+    'stzhang/require-yield': ['error'],
+    'stzhang/no-console': ['error', {
       'allow': ['assert']
     }]
   }
