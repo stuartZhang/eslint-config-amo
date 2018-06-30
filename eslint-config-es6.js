@@ -1,7 +1,7 @@
 'use strict';
 // ECMAScript 6
 module.exports = {
-  'plugins': ['amo'],
+  'plugins': ['stzhang'],
   'rules': {
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['off'],
