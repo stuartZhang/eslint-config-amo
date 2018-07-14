@@ -67,7 +67,7 @@ module.exports = {
     'no-unneeded-ternary': 'error',
     'no-whitespace-before-property': 'error',
     'object-curly-spacing': ['error', 'never'],
-    'quote-props': ['error', 'always'],
+    'quote-props': ['error', 'consistent-as-needed'],
     'quotes': ['error', 'single', 'avoid-escape'],
     'semi': ['error', 'always'],
     'semi-spacing': ['error', {
