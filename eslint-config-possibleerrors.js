@@ -1,8 +1,6 @@
 // Possible Errors
 module.exports = {
-  'rules': {
-    'no-console': ['error', {
-      'allow': ['assert']
-    }],
-  }
+  extends: [
+    'minxing/eslint-config-possibleerrors.js'
+  ]
 };

@@ -1,16 +1,24 @@
 {
   "name": "eslint-config-stzhang",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "stuart_zhang",
   "main": "eslint-config-bestpractice",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/stuartZhang/eslint-config-amo.git"
   },
-  "devDependencies": {
-    "eslint": "^4.12.1"
-  },
   "engines": {
     "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.6.1"
+  },
+  "dependencies": {
+    "eslint-config-minxing": "0.0.35"
   }
 }
