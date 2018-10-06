@@ -10,37 +10,29 @@
 
 * eslint: 5.6+
 
-## 配置
-
-假设`vue-cli`脚手架被用来生成的【H5程序】的基本工程目录结构。
-
 ### 项目根目录下的`.eslintrc.js`配置
 
 > 针对`webpack`可编程配置的`node`程序。
 
+#### nodejs 7.x
+
 ```javascript
 module.exports = {
   ...
-  'parser': 'babel-eslint',
-  'parserOptions': {
-    'ecmaVersion': 5,
-    'sourceType': 'module',
-    'ecmaFeatures': {
-      'globalReturn': true,
-      'impliedStrict': false,
-      'jsx': false,
-      'experimentalObjectRestSpread': false
-    }
-  },
   'extends': [
-    'eslint:recommended',
-    'stzhang/eslint-config-bestpractice.js',
-    'stzhang/eslint-config-errors.js',
-    'stzhang/eslint-config-es6.js',
-    'stzhang/eslint-config-node.js',
-    'stzhang/eslint-config-possibleerrors.js',
-    'stzhang/eslint-config-stylistic.js',
-    'stzhang/eslint-config-var.js'
+    'stzhang/eslint-config-node7x.js'
+  ],
+  ...
+};
+```
+
+#### nodejs 8.x 或更高
+
+```javascript
+module.exports = {
+  ...
+  'extends': [
+    'stzhang/eslint-config-node8x.js'
   ],
   ...
 };
@@ -55,15 +47,7 @@ module.exports = {
   ...
   'root': true,
   'extends': [
-    'eslint:recommended',
-    'stzhang/eslint-config-vue.js',
-    'stzhang/eslint-config-bestpractice.js',
-    'stzhang/eslint-config-errors.js',
-    'stzhang/eslint-config-es6.js',
-    'stzhang/eslint-config-node.js',
-    'stzhang/eslint-config-possibleerrors.js',
-    'stzhang/eslint-config-stylistic.js',
-    'stzhang/eslint-config-var.js'
+    'stzhang/eslint-config-vue.js'
   ],
   ...
 };
