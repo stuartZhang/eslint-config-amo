@@ -34,13 +34,13 @@ module.exports = {
   },
   'extends': [
     'eslint:recommended',
-    'minxing/eslint-config-bestpractice.js',
-    'minxing/eslint-config-errors.js',
-    'minxing/eslint-config-es6.js',
-    'minxing/eslint-config-node.js',
-    'minxing/eslint-config-possibleerrors.js',
-    'minxing/eslint-config-stylistic.js',
-    'minxing/eslint-config-var.js'
+    'stzhang/eslint-config-bestpractice.js',
+    'stzhang/eslint-config-errors.js',
+    'stzhang/eslint-config-es6.js',
+    'stzhang/eslint-config-node.js',
+    'stzhang/eslint-config-possibleerrors.js',
+    'stzhang/eslint-config-stylistic.js',
+    'stzhang/eslint-config-var.js'
   ],
   ...
 };
@@ -56,14 +56,14 @@ module.exports = {
   'root': true,
   'extends': [
     'eslint:recommended',
-    'minxing/eslint-config-vue.js',
-    'minxing/eslint-config-bestpractice.js',
-    'minxing/eslint-config-errors.js',
-    'minxing/eslint-config-es6.js',
-    'minxing/eslint-config-node.js',
-    'minxing/eslint-config-possibleerrors.js',
-    'minxing/eslint-config-stylistic.js',
-    'minxing/eslint-config-var.js'
+    'stzhang/eslint-config-vue.js',
+    'stzhang/eslint-config-bestpractice.js',
+    'stzhang/eslint-config-errors.js',
+    'stzhang/eslint-config-es6.js',
+    'stzhang/eslint-config-node.js',
+    'stzhang/eslint-config-possibleerrors.js',
+    'stzhang/eslint-config-stylistic.js',
+    'stzhang/eslint-config-var.js'
   ],
   ...
 };
