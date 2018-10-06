@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stzhang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "stuart_zhang",
   "main": "eslint-config-bestpractice",
   "license": "MIT",
