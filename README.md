@@ -21,6 +21,17 @@
 ```javascript
 module.exports = {
   ...
+  'parser': 'babel-eslint',
+  'parserOptions': {
+    'ecmaVersion': 5,
+    'sourceType': 'module',
+    'ecmaFeatures': {
+      'globalReturn': true,
+      'impliedStrict': false,
+      'jsx': false,
+      'experimentalObjectRestSpread': false
+    }
+  },
   'extends': [
     'eslint:recommended',
     'minxing/eslint-config-bestpractice.js',
@@ -42,6 +53,7 @@ module.exports = {
 ```javascript
 module.exports = {
   ...
+  'root': true,
   'extends': [
     'eslint:recommended',
     'minxing/eslint-config-vue.js',
@@ -56,6 +68,7 @@ module.exports = {
   ...
 };
 ```
+
 ## 手动执行`eslint`
 
 `npm i npx -g`
